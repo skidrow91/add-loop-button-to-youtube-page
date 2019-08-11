@@ -1,0 +1,14 @@
+{
+    "name": "Youtube Loop",
+    "version": "1.0",
+    "description": "Add loop button to youtube",
+    "content_scripts": [
+        {
+          "matches": ["https://*.youtube.com/*"],
+          "js": ["content.js"],
+          "css": ["style.css"]
+        }
+    ],
+    "content_security_policy": "script-src 'self' ; object-src 'self'",
+    "manifest_version": 2
+}

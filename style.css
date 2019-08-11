@@ -1,0 +1,15 @@
+#loop-button {
+    background: red;
+    color: #fff;
+    border: unset;
+    padding: 5px 10px;
+    min-width: 100px;
+    height: 40px;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+
+#loop-button:focus {
+    outline: unset;
+}
